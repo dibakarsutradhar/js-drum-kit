@@ -82,7 +82,7 @@ body {
 
 .keys p.instruction strong {
     display: inline-block;
-    background: whitesmoke;
+    background: whitesmoke
     font-weight: normal;
     padding: 2px;
     color: black;
@@ -101,9 +101,9 @@ body {
 }
 
 .playing {
-    transform: scale(1.1);
-    border-color: whitesmoke;
-    box-shadow: 0 0 1rem whitesmoke;
+    transform: scale(1.15);
+    border-color: red;
+    box-shadow: 0 0 3rem red;
 }
 
 .key kbd {
