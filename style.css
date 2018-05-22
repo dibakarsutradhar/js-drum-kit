@@ -1,1 +1,115 @@
 /*Photo by <a href="https://unsplash.com/photos/BuiBnE4N31U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">israel palacio</a> on Unsplash*/
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Anton', Arial, sans-serif;
+    background: white;
+    background-image: url(src/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-drum {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+#container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.keys {
+    text-align: center;
+}
+
+.keys h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+
+.keys h2 strong {
+    padding: 0 20px;
+    color: #f3e5ab;
+    font-size: 4rem;
+}
+
+.keys p {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+.keys strong{
+    color: red;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.keys a {
+    display: inline-block;
+    background: whitesmoke;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 2px;
+    color: black;
+    transition: 0.2s all;
+}
+
+.keys a:hover {
+    transform: scale(1.1);
+}
+
+.keys p.instruction {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.keys p.instruction strong {
+    display: inline-block;
+    background: whitesmoke;
+    font-weight: normal;
+    padding: 2px;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.key {
+    color: whitesmoke;
+    width: 60px;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px;
+    border: solid 1px black;
+    transition: all 0.05s;
+}
+
+.key kbd {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: block;
+}
+
+.sound {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
