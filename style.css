@@ -82,7 +82,7 @@ body {
 
 .keys p.instruction strong {
     display: inline-block;
-    background: whitesmoke
+    background: whitesmoke;
     font-weight: normal;
     padding: 2px;
     color: black;
